@@ -26,3 +26,6 @@ debug.log
 
 #README.md
 README.md
+
+#.eslintcache
+.eslintcache
