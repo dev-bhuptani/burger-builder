@@ -5,7 +5,7 @@ class BurgerBuilder extends Component {
     render() {
         return (
             <Aux>
-                <div>BurgerUI</div>
+                <div>Burger</div>
                 <div>BurgerControls</div>
             </Aux>
         );
