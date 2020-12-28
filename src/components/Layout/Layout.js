@@ -4,7 +4,7 @@ import "./Layout.css";
 
 const layout = props => (
     <Aux>
-        <div>Toolbar, SideDrawer, BackDrop</div>
+        <div>Toolbar, SideDrawer, Backdrop</div>
         <main className="Layout">
             {props.children}
         </main>
