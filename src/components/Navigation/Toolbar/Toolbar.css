@@ -22,4 +22,8 @@
     .Toolbar nav {
         visibility: visible;
     }
+
+    .Menu {
+        visibility: hidden;
+    }
 }

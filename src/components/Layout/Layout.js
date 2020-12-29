@@ -6,17 +6,21 @@ import "./Layout.css";
 
 class Layout extends Component {
     state = {
-        showSideDrawer: true
+        showSideDrawer: false
     }
 
     backdropDisplayHandler = () => {
-        this.setState({showSideDrawer: false})
+        this.setState({showSideDrawer: false});
+    }
+
+    menuClickedHandler = () => {
+        this.setState({showSideDrawer: true});
     }
 
     render() {
         return (
             <Aux>
-                <Toolbar />
+                <Toolbar menuClicked={this.menuClickedHandler} />
                 <SideDrawer showSideDrawer={this.state.showSideDrawer} backdropDisplay={this.backdropDisplayHandler} />
                 <main className="Layout">
                     {this.props.children}
