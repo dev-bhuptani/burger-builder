@@ -6,7 +6,9 @@ import "./SideDrawer.css";
 const sideDrawer = props => {
     return (
         <div className="SideDrawer">
-            <Logo height="11%"/>
+            <div style={{display: "inline"}}>
+                <Logo height="11%" mobileWidth="80px"/>
+            </div>
             <nav>
                 <NavigationItems />
             </nav>
