@@ -5,7 +5,11 @@ import "./Toolbar.css";
 
 const toolbar = props => (
     <header className="Toolbar">
-        <div className="Menu" onClick={props.menuClicked}>MENU</div>
+        <div className="DrawerToggle" onClick={props.menuClicked}>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
         <Logo height="80%"/>
         <nav>
             <NavigationItems />
