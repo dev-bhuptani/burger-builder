@@ -15,4 +15,11 @@
 
 .Toolbar nav {
     height: 100%;
+    visibility: hidden;
+}
+
+@media (min-width: 500px) {
+    .Toolbar nav {
+        visibility: visible;
+    }
 }
