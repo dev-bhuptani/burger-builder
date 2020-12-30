@@ -17,7 +17,7 @@ const sideDrawer = props => {
             <Backdrop show={props.showSideDrawer} backdropDisplay={props.backdropDisplay} />
             <div className={sideDrawerClasses}>
                 <div style={{display: "inline"}}>
-                    <Logo height="11%" mobileWidth="80px"/>
+                    <Logo height="9%" mobileWidth="80px"/>
                 </div>
                 <nav>
                     <NavigationItems />
